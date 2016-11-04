@@ -10,12 +10,12 @@ import com.zxl.easyapp.R;
  */
 public class BaseConstant {
     //第三方平台权限配置
-    public static final String QQ_APPID = "1104476315";
-    public static final String QQ_APPKEY = "ZG1Dvk2i1omZ7uen";
-    public static final String WX_APPID = "wxac46bca9dd66efc6";
-    public static final String WX_APPSECRET = "63f60e15c0aab892c6428b51309eef7e";
-    public static final String SINA_APPKEY = "3287894211";
-    public static final String SINA_APPSECRET = "18208c3e6d935b417ad17e3e223902b5";
+    public static final String QQ_APPID = "";
+    public static final String QQ_APPKEY = "";
+    public static final String WX_APPID = "";
+    public static final String WX_APPSECRET = "";
+    public static final String SINA_APPKEY = "";
+    public static final String SINA_APPSECRET = "";
     public static final String ACCOUNT_REMOVED = "account_removed";
     public static final String ACCOUNT_CONFLICT = "conflict";
     //sd卡路径
