@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_f36666_0_5">#80f36666</color>
+    <color name="red_f36666_0_9">#e6f36666</color>
+    <color name="red_f36666">#f36666</color>
+    <color name="red_ff4848">#ff4848</color>
+    <color name="red_ff2940">#ff2940</color>
+    <color name="red_f05e4d_0_5">#80f05e4d</color>
+    <color name="red_f05e4d">#f05e4d</color>
+    <color name="orange_f68a42_0_5">#80f68a42</color>
+    <color name="orange_f68a42">#f68a42</color>
+    <color name="orange_f8a900_0_5">#80f8a900</color>
+    <color name="orange_f8a900">#f8a900</color>
+
+    <color name="blue_12b7f5_0_3">#4d12b7f5</color>
+    <color name="blue_12b7f5_0_5">#8012b7f5</color>
+    <color name="blue_12b7f5_0_8">#b412b7f5</color>
+    <color name="blue_12b7f5_0_9">#e612b7f5</color>
+    <color name="blue_12b7f5">#12b7f5</color>
+    <color name="blue_0fa1d7">#0fa1d7</color>
+
+    <color name="green_2ad27a_0_5">#802ad27a</color>
+    <color name="green_2ad27a">#2ad27a</color>
+    <color name="green_2ad17b_0_5">#802ad17b</color>
+    <color name="green_2ad17b">#2ad17b</color>
+    <color name="green_3dccb4_0_5">#803dccb4</color>
+    <color name="green_3dccb4">#3dccb4</color>
+    <color name="green_1aad50">#1aad50</color>
+    <color name="green_199c49">#199c49</color>
+    <color name="green_178b28">#178b28</color>
+
+    <color name="gray_fafafa">#fafafa</color>
+    <color name="gray_ddd">#ddd</color>
+    <color name="gray_bbb">#bbb</color>
+    <color name="gray_aaa_0_5">#80aaaaaa</color>
+    <color name="gray_aaa">#aaa</color>
+    <color name="gray_333">#333</color>
+    <color name="gray_747474">#747474</color>
+    <color name="black_0_1">#16000000</color>
+    <color name="black_0_3">#39000000</color>
+    <color name="black_0_5">#80000000</color>
+    <color name="white_0_2">#30ffffff</color>
+    <color name="white_0_5">#80ffffff</color>
+    <color name="white_0_6">#99ffffff</color>
+    <color name="white_0_7">#b2ffffff</color>
+    <color name="white_0_8">#b4ffffff</color>
+
+    <color name="app_page_bg">#ededed</color>
+    <color name="app_divider">#ddd</color>
+    <!-- 底栏字体颜色 -->
+    <color name="football_coin_second">#f5f5f5</color>
+</resources>

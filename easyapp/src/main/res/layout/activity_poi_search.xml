@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_home_header" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/id_poi_search_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.zxl.easyapp.ui.OverListView
+                android:id="@+id/id_poi_search_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:divider="@color/app_divider"
+                android:dividerHeight="@dimen/dp0_1"
+                android:fadingEdge="none"
+                android:footerDividersEnabled="true"
+                android:headerDividersEnabled="false"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/id_tv_tip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp100"
+                android:gravity="center"
+                android:text="暂时没有相关数据"
+                android:textColor="@color/gray_aaa"
+                android:textSize="@dimen/sp20"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.zxl.easyapp.ui.ExtendedViewPager
+        android:id="@+id/id_image_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/id_layout_top"
+        layout="@layout/layout_home_header" />
+
+    <TextView
+        android:id="@+id/id_tv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp30"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black_0_5"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp15"
+        android:visibility="gone" />
+</RelativeLayout>
