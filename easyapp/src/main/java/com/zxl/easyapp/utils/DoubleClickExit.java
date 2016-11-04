@@ -38,7 +38,7 @@ public class DoubleClickExit {
         } else {
             isOnKeyBacking = true;
             if (backTipToast == null) {
-                backTipToast = Toast.makeText(context, "再按一次退出班级赛", Toast.LENGTH_SHORT);
+                backTipToast = Toast.makeText(context, "", Toast.LENGTH_SHORT);
             }
             backTipToast.show();
             doubleClickHandler.postDelayed(onBackTimeRunnable, 1000);
